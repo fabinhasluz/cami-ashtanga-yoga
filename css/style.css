@@ -49,7 +49,7 @@ h1,h2,h3{
 h1{ font-size: clamp(2.4rem, 5.5vw, 4rem); line-height: 1.08; font-weight: 500; }
 h2{ font-size: clamp(1.9rem, 3.4vw, 2.6rem); line-height: 1.15; }
 h3{ font-size: 1.25rem; margin-bottom: .4em; }
-p{ margin: 0 0 1em; color: var(--ink-soft); }
+p{ margin: 0 0 1em; color: var(--ink-soft); text-align: justify; }
 
 .eyebrow{
   font-family: var(--font-body);
@@ -133,8 +133,7 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(248,243,234,.86);
-  backdrop-filter: blur(10px);
+  background: var(--cream);
   border-bottom: 1px solid rgba(46,42,36,.08);
 }
 .header-inner{
@@ -353,7 +352,7 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
   border-radius: var(--radius);
   text-align: center;
 }
-.cta-inline p{ font-size: 1.1rem; color: var(--ink); margin-bottom: 1.3em; }
+.cta-inline p{ font-size: 1.1rem; color: var(--ink); margin-bottom: 1.3em; text-align: center; text-align-last: center; }
 .cta-inline .btn{ margin: 0 8px; }
 
 /* ===== Empty state (eventos) ===== */
@@ -367,7 +366,7 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
   color: var(--terracotta-dark);
 }
 .empty-state h2{ font-size: 1.5rem; margin: .5em 0 .4em; }
-.empty-state p{ margin-bottom: 1.6em; }
+.empty-state p{ margin-bottom: 1.6em; text-align: center; text-align-last: center; }
 
 /* ===== Events teaser ===== */
 .events-teaser{
@@ -441,7 +440,7 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
   text-align:center;
 }
 .cta-band h2{ color: var(--white); }
-.cta-band p{ color: rgba(255,255,255,.85); max-width: 480px; margin-left:auto; margin-right:auto; font-size: 1.05rem; }
+.cta-band p{ color: rgba(255,255,255,.85); max-width: 480px; margin-left:auto; margin-right:auto; font-size: 1.05rem; text-align: center; text-align-last: center; }
 .cta-band .hero-cta{ justify-content:center; }
 
 /* ===== Footer ===== */
