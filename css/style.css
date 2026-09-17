@@ -128,6 +128,22 @@ p{ margin: 0 0 1em; color: var(--ink-soft); text-align: justify; }
 }
 .link-underline:hover{ color: var(--terracotta); }
 
+/* ===== Page background image (currículo) ===== */
+body.page-with-bg{ background: none; }
+.page-bg{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(248,243,234,.93), rgba(248,243,234,.93)),
+    url('../images/tree-bg.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  pointer-events: none;
+}
+
 /* ===== Header ===== */
 .site-header{
   position: sticky;
