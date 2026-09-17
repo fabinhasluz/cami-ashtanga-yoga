@@ -63,6 +63,7 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
 .eyebrow.center{ text-align:center; }
 .center{ text-align:center; margin-left:auto; margin-right:auto; }
 .section-intro{ max-width: 560px; font-size: 1.05rem; margin-bottom: 3rem; }
+.section-intro.center{ text-align: justify; text-align-last: center; }
 
 /* ===== Buttons ===== */
 .btn{
